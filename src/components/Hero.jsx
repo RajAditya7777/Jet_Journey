@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div className='w-full h-full bg-[#0c438bda] flex flex-col justify-center items-center'>
         <div className="max-w-4xl mx-auto text-center flex flex-col justify-center items-center">
           <h1 className="text-7xl font-extrabold mb-4">Track Your Flight Journey</h1>
-          <p className="text-lg md:text-xl mb-6 font-light">Real-time updates on flight status, delays, and gate changes – all in one place.</p>
+          <p className="text-lg mb-6 font-light">Real-time updates on flight status, delays, and gate changes – all in one place.</p>
           <div className="flex justify-center gap-4">
             <TrackButton onClick={handleTrackFlight} />
           </div>
