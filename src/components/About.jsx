@@ -16,8 +16,8 @@ export default function About() {
     </div>
 
 
-    {/* <div className="grid md:grid-cols-2 gap-10 p-10 items-center bg-white">
-        <img src={mapImage} alt="World map with airplane" className="rounded-lg shadow-md" />
+    <div className="grid grid-cols-2 gap-10 p-10 items-center bg-white">
+      <img src="/map.png" alt="World map with airplane" className="rounded-lg shadow-md" />
 
         <div>
           <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
@@ -43,7 +43,7 @@ export default function About() {
             </li>
           </ul>
         </div>
-      </div> */}
+      </div>
    </section>
 
    

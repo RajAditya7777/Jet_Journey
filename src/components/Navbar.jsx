@@ -5,8 +5,9 @@ import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@cl
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-10 py-5 shadow-md bg-white sticky top-0 z-50 rounded- ">
-      <div className="text-2xl font-bold text-blue-600 flex items-center gap-2">
-        ✈️ JetJourney
+      <div className="text-2xl font-bold text-black flex items-center gap-2">
+        <img src="/plane-logo.svg" alt="JetJourney Logo" className="w-8 h-8" />
+          JetJourney
       </div>
       <div className="space-x-8 font-medium text-gray-700 ">
         <Link to="/">Home</Link>
