@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from '../miniComponents/contactForm';
+
 
 export default function Contact() {
   return (
@@ -21,6 +21,8 @@ export default function Contact() {
       <div>
         <h2 className='font-bo'>Send Us a Message</h2>
       </div>
+      
+      
     </div>
 
     </section>

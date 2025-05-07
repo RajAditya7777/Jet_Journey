@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {features.map((feature, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg transition duration-300 hover:translate-y-1">
+              <div key={index} className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg transition duration-300 hover:-translate-y-1">
                 {feature.icon}
                 <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-600">{feature.desc}</p>
